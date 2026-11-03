@@ -1,0 +1,32 @@
+[project]
+name = "iris-dataset"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "_xBott", email = "roma.plakhotniuk07@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "matplotlib>=3.10.8",
+    "nbdime>=4.0.4",
+    "notebook>=7.5.3",
+    "numpy>=2.4.2",
+    "pandas>=3.0.0",
+    "pandasql>=0.7.3",
+    "pyarrow>=23.0.0",
+    "pydot>=4.0.1",
+    "scikit-learn>=1.8.0",
+    "scikit-optimize>=0.10.2",
+    "scipy>=1.17.0",
+    "seaborn>=0.13.2",
+    "statsmodels>=0.14.6",
+    "sympy>=1.14.0",
+    "wandb>=0.24.2",
+    "kagglehub>=1.0.3",
+    "python-dotenv>=1.2.4"
+]
+
+[build-system]
+requires = ["uv_build>=0.12.15,<0.13.0"]
+build-backend = "uv_build"
